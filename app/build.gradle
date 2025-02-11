@@ -36,8 +36,8 @@ android {
         enabled = true
     }
 
-    composeOptions {
-        suppressKotlinVersionCompatibilityCheck = true // 强制忽略版本检查
+    compose {
+    kotlinCheck = false
     }
 
     compileOptions {
